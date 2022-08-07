@@ -1,4 +1,4 @@
-package br.edu.infnet.appagendea;
+package br.edu.infnet.appagenda;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

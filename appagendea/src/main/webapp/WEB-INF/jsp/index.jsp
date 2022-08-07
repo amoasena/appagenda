@@ -10,33 +10,6 @@
 	<div class="container mt-3">
 		<h2>AppAgenda</h2>
 		<p>Projeto de Gestão de Agenda</p>
-		<h3>Classe: Médico</h3>
-		<table class="table table-dark">
-			<thead>
-				<tr>
-					<th>Atributo</th>
-					<th>Tipo</th>
-					<th>Descrição</th>
-					</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>codigo</td>
-					<td>int</td>
-					<td>Código</td>
-				</tr>
-				<tr>
-					<td>nome</td>
-					<td>sting</td>
-					<td>Nome do médico</td>
-				</tr>
-				<tr>
-					<td>CRM</td>
-					<td>String</td>
-					<td>CRM</td>
-				</tr>
-			</tbody>
-		</table>
 		<h3>Classe: Cliente</h3>
 		<table class="table table-dark">
 			<thead>
@@ -111,6 +84,16 @@
 					<td>int</td>
 					<td>Tempo de duração em minutos</td>
 				</tr>
+				<tr>
+					<td>nomeMedico</td>
+					<td>string</td>
+					<td>Nome do médico atendente</td>
+				</tr>
+				<tr>
+					<td>especialidade</td>
+					<td>string</td>
+					<td>Especialidade do médico atendente</td>
+				</tr>
 			</tbody>
 		</table>
 		<h3>Classe: Exame</h3>
@@ -144,50 +127,6 @@
 					<td>descricao</td>
 					<td>string</td>
 					<td>Descrição</td>
-				</tr>
-			</tbody>
-		</table>
-		<h3>Classe: Especialidade</h3>
-		<table class="table table-dark">
-			<thead>
-				<tr>
-					<th>Atributo</th>
-					<th>Tipo</th>
-					<th>Descrição</th>
-					</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>codigo</td>
-					<td>int</td>
-					<td>Código</td>
-				</tr>
-				<tr>
-					<td>descricao</td>
-					<td>sting</td>
-					<td>Descrição</td>
-				</tr>
-			</tbody>
-		</table>
-		<h3>Classe: Operadora</h3>
-		<table class="table table-dark">
-			<thead>
-				<tr>
-					<th>Atributo</th>
-					<th>Tipo</th>
-					<th>Descrição</th>
-					</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>codigo</td>
-					<td>int</td>
-					<td>Código</td>
-				</tr>
-				<tr>
-					<td>nome</td>
-					<td>sting</td>
-					<td>Nome</td>
 				</tr>
 			</tbody>
 		</table>
